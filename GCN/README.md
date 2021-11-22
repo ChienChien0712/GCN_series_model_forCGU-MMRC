@@ -1,6 +1,6 @@
 # Graph Convolution Network (GCN)
 
-Graph data are gaining more importance in recent year. Comparing with traditional data, graph data provide an addtional information of edges which stand for the connection of subjects. I established a series of pacakges to build flexible costumized GCN models for user, so that user can create GCN models easily. 
+Graph data are gaining more importance in recent year. Comparing with traditional data, graph data provide an addtional information of edges which stand for the connection of subjects. I established a series of pacakges to build flexible customized GCN models for user, so that user can create GCN models easily. 
 
 These packages can deal with 2 graph-relating tasks including node prediction (called "inductive learning") and graph prediction (called "transductive learning"). Packages are based on 3 different methods of feature propagation between nodes including [classic GCN](https://arxiv.org/abs/1606.09375), [Graph-U-Nets](https://arxiv.org/abs/1905.05178) and [Graph Attention Networks (GATs)](https://arxiv.org/abs/1710.10903).
 
