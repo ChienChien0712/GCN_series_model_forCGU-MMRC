@@ -1,0 +1,24 @@
+traing set:
+accuracy of fold # 1: 93.76%
+accuracy of fold # 2: 93.68%
+accuracy of fold # 3: 93.43%
+accuracy of fold # 4: 93.76%
+accuracy of fold # 5: 93.64%
+accuracy of fold # 6: 93.39%
+accuracy of fold # 7: 93.76%
+accuracy of fold # 8: 93.27%
+accuracy of fold # 9: 93.80%
+accuracy of fold #10: 93.64%
+10-folds accuracy: 93.61% (std=0.18%)
+validation set:
+accuracy of fold # 1: 88.19%
+accuracy of fold # 2: 87.45%
+accuracy of fold # 3: 90.77%
+accuracy of fold # 4: 86.35%
+accuracy of fold # 5: 90.04%
+accuracy of fold # 6: 88.93%
+accuracy of fold # 7: 88.56%
+accuracy of fold # 8: 94.46%
+accuracy of fold # 9: 89.67%
+accuracy of fold #10: 88.43%
+10-folds accuracy: 89.29% (std=2.11%)

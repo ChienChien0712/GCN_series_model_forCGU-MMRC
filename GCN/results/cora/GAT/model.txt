@@ -1,0 +1,129 @@
+GAT(
+  (dropout): Dropout(p=0.6)
+->
+  (attention_0): GraphAttentionLayer(
+    (hidden_features): Linear(in_features=1433, out_features=8, bias=False)
+    (attetion): Attetion(
+      (concat_ij): Concat(in_features=8, out_features=8*2)
+      (a): Linear(in_features=16, out_features=1, bias=False)
+      (leakyrelu): LeakyReLU(negative_slope=0.2)
+      (concat_edges): Concat(in_features=1, out_features=1-hop edges)
+      (softmax): Softmax(in_features=1-hop edges, out_features=1-hop edges)
+      (dropout_attetion): Dropout(p=Dropout(p=0.6, inplace=False))
+    )
+    (weighted_hidden_features): Matmul(attention, hidden_features)
+    (elu): ELU(alpha=1.0)
+  )
+  (attention_1): GraphAttentionLayer(
+    (hidden_features): Linear(in_features=1433, out_features=8, bias=False)
+    (attetion): Attetion(
+      (concat_ij): Concat(in_features=8, out_features=8*2)
+      (a): Linear(in_features=16, out_features=1, bias=False)
+      (leakyrelu): LeakyReLU(negative_slope=0.2)
+      (concat_edges): Concat(in_features=1, out_features=1-hop edges)
+      (softmax): Softmax(in_features=1-hop edges, out_features=1-hop edges)
+      (dropout_attetion): Dropout(p=Dropout(p=0.6, inplace=False))
+    )
+    (weighted_hidden_features): Matmul(attention, hidden_features)
+    (elu): ELU(alpha=1.0)
+  )
+  (attention_2): GraphAttentionLayer(
+    (hidden_features): Linear(in_features=1433, out_features=8, bias=False)
+    (attetion): Attetion(
+      (concat_ij): Concat(in_features=8, out_features=8*2)
+      (a): Linear(in_features=16, out_features=1, bias=False)
+      (leakyrelu): LeakyReLU(negative_slope=0.2)
+      (concat_edges): Concat(in_features=1, out_features=1-hop edges)
+      (softmax): Softmax(in_features=1-hop edges, out_features=1-hop edges)
+      (dropout_attetion): Dropout(p=Dropout(p=0.6, inplace=False))
+    )
+    (weighted_hidden_features): Matmul(attention, hidden_features)
+    (elu): ELU(alpha=1.0)
+  )
+  (attention_3): GraphAttentionLayer(
+    (hidden_features): Linear(in_features=1433, out_features=8, bias=False)
+    (attetion): Attetion(
+      (concat_ij): Concat(in_features=8, out_features=8*2)
+      (a): Linear(in_features=16, out_features=1, bias=False)
+      (leakyrelu): LeakyReLU(negative_slope=0.2)
+      (concat_edges): Concat(in_features=1, out_features=1-hop edges)
+      (softmax): Softmax(in_features=1-hop edges, out_features=1-hop edges)
+      (dropout_attetion): Dropout(p=Dropout(p=0.6, inplace=False))
+    )
+    (weighted_hidden_features): Matmul(attention, hidden_features)
+    (elu): ELU(alpha=1.0)
+  )
+  (attention_4): GraphAttentionLayer(
+    (hidden_features): Linear(in_features=1433, out_features=8, bias=False)
+    (attetion): Attetion(
+      (concat_ij): Concat(in_features=8, out_features=8*2)
+      (a): Linear(in_features=16, out_features=1, bias=False)
+      (leakyrelu): LeakyReLU(negative_slope=0.2)
+      (concat_edges): Concat(in_features=1, out_features=1-hop edges)
+      (softmax): Softmax(in_features=1-hop edges, out_features=1-hop edges)
+      (dropout_attetion): Dropout(p=Dropout(p=0.6, inplace=False))
+    )
+    (weighted_hidden_features): Matmul(attention, hidden_features)
+    (elu): ELU(alpha=1.0)
+  )
+  (attention_5): GraphAttentionLayer(
+    (hidden_features): Linear(in_features=1433, out_features=8, bias=False)
+    (attetion): Attetion(
+      (concat_ij): Concat(in_features=8, out_features=8*2)
+      (a): Linear(in_features=16, out_features=1, bias=False)
+      (leakyrelu): LeakyReLU(negative_slope=0.2)
+      (concat_edges): Concat(in_features=1, out_features=1-hop edges)
+      (softmax): Softmax(in_features=1-hop edges, out_features=1-hop edges)
+      (dropout_attetion): Dropout(p=Dropout(p=0.6, inplace=False))
+    )
+    (weighted_hidden_features): Matmul(attention, hidden_features)
+    (elu): ELU(alpha=1.0)
+  )
+  (attention_6): GraphAttentionLayer(
+    (hidden_features): Linear(in_features=1433, out_features=8, bias=False)
+    (attetion): Attetion(
+      (concat_ij): Concat(in_features=8, out_features=8*2)
+      (a): Linear(in_features=16, out_features=1, bias=False)
+      (leakyrelu): LeakyReLU(negative_slope=0.2)
+      (concat_edges): Concat(in_features=1, out_features=1-hop edges)
+      (softmax): Softmax(in_features=1-hop edges, out_features=1-hop edges)
+      (dropout_attetion): Dropout(p=Dropout(p=0.6, inplace=False))
+    )
+    (weighted_hidden_features): Matmul(attention, hidden_features)
+    (elu): ELU(alpha=1.0)
+  )
+  (attention_7): GraphAttentionLayer(
+    (hidden_features): Linear(in_features=1433, out_features=8, bias=False)
+    (attetion): Attetion(
+      (concat_ij): Concat(in_features=8, out_features=8*2)
+      (a): Linear(in_features=16, out_features=1, bias=False)
+      (leakyrelu): LeakyReLU(negative_slope=0.2)
+      (concat_edges): Concat(in_features=1, out_features=1-hop edges)
+      (softmax): Softmax(in_features=1-hop edges, out_features=1-hop edges)
+      (dropout_attetion): Dropout(p=Dropout(p=0.6, inplace=False))
+    )
+    (weighted_hidden_features): Matmul(attention, hidden_features)
+    (elu): ELU(alpha=1.0)
+  )
+->
+  (concat_attention_0-7): Concat(in_features=8, out_features=8*8layers)
+->
+  (dropout): Dropout(p=0.6)
+->
+  (attention_out): GraphAttentionLayer(
+    (hidden_features): Linear(in_features=64, out_features=7, bias=False)
+    (attetion): Attetion(
+      (concat_ij): Concat(in_features=7, out_features=7*2)
+      (a): Linear(in_features=14, out_features=1, bias=False)
+      (leakyrelu): LeakyReLU(negative_slope=0.2)
+      (concat_edges): Concat(in_features=1, out_features=1-hop edges)
+      (softmax): Softmax(in_features=1-hop edges, out_features=1-hop edges)
+      (dropout_attetion): Dropout(p=Dropout(p=0.6, inplace=False))
+    )
+    (weighted_hidden_features): Matmul(attention, hidden_features)
+  )
+->
+  (elu): ELU(alpha=1.0)
+->
+  (softmax): Softmax(in_features=7, out_features=7)
+)
