@@ -26,7 +26,7 @@ Furthemore, we want to use the information of brain functions as additional feat
 | random forest | 72.98% | 4.54% |
 | S-GCN | 76.23% | 6.08% |
 | SA-GCN  | 74.23% | 9.03% |
-| SAC-GCN | 73.33% | 8.10%% |
+| SAC-GCN | 73.33% | 8.10% |
 
 After we applied the information of brain functions, we found the accuracy are greater than those of traditional machine learning. However, the accuracy were not improvement in our dataset when "A" or "AC" technics were applied.
 
