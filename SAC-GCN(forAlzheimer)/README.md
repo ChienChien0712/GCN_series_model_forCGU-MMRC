@@ -24,7 +24,7 @@ Furthemore, we want to use the information of brain functions as additional feat
 | SVM(sigmoid) | 54.84% | 6.89% |
 | SVM(rbf) | 44.42% | 6.54% |
 | random forest | 72.98% | 4.54% |
-| S-GCN  | 76.23% | 6.08% |
+| <font color=Blue>S-GCN  </font> | 76.23% | 6.08% |
 | SA-GCN  | 74.23% | 9.03% |
 | SAC-GCN | 73.33% | 8.10%% |
 
